@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Web - Nakhadwa Muhammad Razky</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+      /* Custom CSS */
+      body {
+        background-image: url("yesmen.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: "Arial", sans-serif;
+      }
+      header {
+        background-color: rgba(52, 58, 64, 0.8);
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+      }
+      header img {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+      }
+      .profile-img {
+        width: 150px;
+        border-radius: 50%;
+      }
+      .section-title {
+        margin-top: 40px;
+        color: #343a40;
+      }
+      .background-box {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 40px;
+      }
+      footer {
+        background-color: rgba(52, 58, 64, 0.8);
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      footer a {
+        font-size: 24px;
+        transition: color 0.3s;
+      }
+      footer a:hover {
+        color: #ffcc00;
+      }
+      .skill-icon {
+        width: 80px; /* Ukuran ikon keterampilan yang lebih besar */
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <img src="logo.png" alt="Logo Polman" />
+        <!-- Tambahkan logo Polman di sini -->
+        <h1>Nakhadwa Muhammad Razky</h1>
+        <p>Web Developer &amp; Student</p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+      <!-- Profile Section -->
+      <section id="profile" class="text-center background-box">
+        <img src="foto.jpg" alt="Profile Picture" class="profile-img" />
+        <h2 class="section-title">About Me</h2>
+        <p>
+          Hello, my name is <strong>Nakhadwa Muhammad Razky</strong>, a passionate web developer and a dedicated student currently pursuing my studies in Computer Science. I was born in Cimahi on September 18, 2003, and I have been
+          fascinated by technology and programming since a young age.
+        </p>
+        <p>
+          I am currently studying at <strong>Politeknik Manufaktur Bandung (Polman)</strong>, where I am honing my skills in various areas of software development, including web technologies such as HTML, CSS, JavaScript, PHP, and MySQL. I
+          am also learning about hardware-related programming, which allows me to combine my interests in electronics and software.
+        </p>
+        <p>
+          Aside from my academic endeavors, I am passionate about exploring new technologies, developing modern, responsive websites, and building practical applications that solve real-world problems. I enjoy working on both the front-end
+          and back-end of web development, and I am constantly learning and improving my skills to keep up with the latest industry trends.
+        </p>
+        <p>
+          In my spare time, I enjoy reading tech blogs, learning new programming languages, and contributing to open-source projects. I am also an avid sports enthusiast, particularly enjoying soccer and basketball. These activities help me
+          stay balanced and focused, allowing me to bring my best self to both my studies and my development projects.
+        </p>
+        <p>
+          My ultimate goal is to become a full-stack web developer, capable of building and maintaining high-quality web applications from start to finish. I aspire to work in an innovative tech company where I can contribute to
+          cutting-edge projects and continue to grow as a developer.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="background-box">
+        <h2 class="section-title text-center">Skills</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="css.png" alt="HTML & CSS" class="skill-icon" />
+            <h4>HTML & CSS</h4>
+            <p>Building responsive and modern web layouts.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="js.png" alt="JavaScript" class="skill-icon" />
+            <h4>JavaScript</h4>
+            <p>Creating dynamic and interactive user experiences.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="php.png" alt="PHP & MySQL" class="skill-icon" />
+            <h4>PHP & MySQL</h4>
+            <p>Backend development for database-driven websites.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="background-box">
+        <h2 class="section-title text-center">Portfolio</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="projek1.jpg" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">A responsive website built using HTML, CSS, and Bootstrap.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="projek2.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">A dynamic web application with JavaScript and API integration.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="projek3.png" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">An e-commerce platform built with PHP and MySQL.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>&copy; 2024 Nakhadwa Muhammad Razky. All Rights Reserved.</p>
+        <div>
+          <a href="https://www.facebook.com/username" target="_blank" class="text-white mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/username" target="_blank" class="text-white mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
